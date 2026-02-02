@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Web_gudang.css">
+  <title>Document</title>
+</head>
+<body class="body">
+  <center>
+    <h3 class="judul">selama datang di web gudang</h3>
+    <p class="text">Website ini digunakan untuk mengelola persediaan barang di gudang.
+    Anda dapat memantau stok, mencatat barang masuk dan keluar,
+    serta memastikan semua data tersimpan dengan rapi dan aman.</p>
+  </center>
+  <center>
+ <div class="kotak">
+   <label class="nama_barang" for="username">nama barang</label><br></br>
+   <input id="username">
+<button class="button">Kirim</button>
+ </div>
+ <div class="admin">
+   <input class="kata" type="password" id="pass"placeholder="admin"><br></br>
+<button onclick="login()">Masuk</button><br></br>
+<script>
+function login() {
+  let passwordRahasia = "6479743235788";
+  let input = document.getElementById("pass").value;
+
+  if(input === passwordRahasia){
+    window.location.href = "Web_gudang2.html";
+  } else {
+    alert("Password salah bro!");
+  }
+}
+</script>
+<div class="kota2">
+  <h3 class="stil">stok barang</h3>
+  <p id="hasil"></p>
+</div>
+  <script src="Web_Gudang.js"></script>
+</body>
+</html>
