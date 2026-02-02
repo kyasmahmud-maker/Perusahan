@@ -1,0 +1,72 @@
+.body{
+  background-image: url("pngtree-large-product-warehouse-image_1055729~2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.judul{
+  color: white;
+}
+.kotak{
+  width: 240px;
+  height: 100px;
+  background: white;
+  margin-top: 40px;
+}
+.kotak{
+  background-color:  rgba(255,255,255,0.8);
+  color: white;
+  border-radius: 20px;
+}
+.button{
+  width: 100px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.judul{
+  color: white;
+}
+.text{
+  color: white;
+}
+.halaman{
+  width: 200px;
+  background: white;
+  background-color: rgba(255,255,255,0.8);
+  color: white;
+  display:block;
+  margin-top:200px;
+  text-align:center;
+  text-decoration: none;
+}
+.admin{
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  background: white;
+  margin-top: 130px;
+}
+.kata{
+  margin-top: 20px;
+}
+.kota2{
+  width: 200px;
+  height: 100px;
+  background: white;
+  border-radius: 10px;
+  margin-top: -230px;
+}
+.stil{
+  color: black;
+}
+.nama_barang{
+  color: black;
+}
