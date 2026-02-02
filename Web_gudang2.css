@@ -1,0 +1,28 @@
+.body{
+  background-image: url("pngtree-large-product-warehouse-image_1055729~2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.kotak{
+  color: white;
+  margin-top: 10px;
+}
+.kirim{
+  width: 100px;
+}
+.A{
+  width: 100px;
+  background: white;
+  color: black;
+  text-decoration: white;
+  margin-top: 100px;
+}
